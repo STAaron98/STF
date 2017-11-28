@@ -22,6 +22,7 @@ $reqAction = 'home';           //action unterscheiden in admin und normalen user
 $controller = new Controller();
 $action = $reqAction;
 $sinnloseVariable = "Mocht olls koan Sinn!";
+$noDieSinnlossereVariable = "Jo spinni, so wianig Sinn!";
 
 
 if (in_array($reqAction, $allowedForUsers))
