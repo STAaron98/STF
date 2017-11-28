@@ -1,0 +1,56 @@
+*{
+    
+}
+body{
+    height:  100%;
+    width: auto;
+}
+h1{
+    
+}
+h2{
+    
+}
+h3{
+    
+}
+h4{
+    
+}
+h5{
+    
+}
+h6{
+    
+}
+p{
+    
+}
+a{
+    
+}
+/*Flexslider*/
+.background-slider {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+.background-slider .flexslider {
+  height: 100vh;
+  border: none !important;
+}
+.background-slider .flexslider .slides li img {
+  min-height: 100vh;
+  min-width: 100%;
+  width: auto;
+}
+.background-slider .flexslider .flex-control-nav,
+.background-slider .flexslider .flex-control-paging {
+  display: none;
+}
+.background-slider .flexslider .flex-direction-nav {
+  display: none;
+}
+/*FlexsliderEND*/
